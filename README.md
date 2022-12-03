@@ -13,3 +13,5 @@ Is Netflix has increasingly focusing on TV rather than movies in recent years.
 
 Clustering similar content by matching text-based features
 
+## 3) Attribute Information
+
