@@ -1,19 +1,9 @@
-## Netflix-Movies-and-TV-Shows-Clustering
-## 1)Problem Statement:
-This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Flixable which is a third-party Netflix search engine.
 
-In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010. The streaming service’s number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what all other insights can be obtained from the same dataset
+# Netflix-Movies-and-TV-Shows-Clustering
 
-## 2) In this project, you are required to do:
-Exploratory Data Analysis
+Netflix Recommender recommends Netflix movies and TV shows based on a user's favorite movie or TV show. It uses a a K-Means Clustering model to make these recommendations. These models use information about movies and TV shows such as their plot descriptions and genres to make suggestions.
 
-Understanding what type content is available in different countries
-
-Is Netflix has increasingly focusing on TV rather than movies in recent years.
-
-Clustering similar content by matching text-based features
-
-## 3) Attribute Information
+# Dataset descriptions
 
 show_id : Unique ID for every Movie / Tv Show
 
@@ -38,3 +28,15 @@ duration : Total Duration - in minutes or number of seasons
 listed_in : Genere
 
 description: The Summary description
+
+# K-Means Clustering
+
+k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. This results in a partitioning of the data space into Voronoi cells. k-means clustering minimizes within-cluster variances (squared Euclidean distances), but not regular Euclidean distances, which would be the more difficult Weber problem: the mean optimizes squared errors, whereas only the geometric median minimizes Euclidean distances. For instance, better Euclidean solutions can be found using k-medians and k-medoids.
+
+# Hierarchical Clustering
+
+k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. To group the datasets into clusters, it follows the bottom-up approach. It means, this algorithm considers each dataset as a single cluster at the beginning, and then start combining the closest pair of clusters together. It does this until all the clusters are merged into a single cluster that contains all the datasets.
+
+
+
+
