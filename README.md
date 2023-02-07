@@ -37,6 +37,12 @@ k-means clustering is a method of vector quantization, originally from signal pr
 
 k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. To group the datasets into clusters, it follows the bottom-up approach. It means, this algorithm considers each dataset as a single cluster at the beginning, and then start combining the closest pair of clusters together. It does this until all the clusters are merged into a single cluster that contains all the datasets.
 
+# Conclusion
 
+1) There are more number of movies on Netflix than TV-shows.
+
+2) The most number of movies and TV-shows released in 2017, 2018 or 2020 resp.
+
+3) By applying the elbow and silhouette score, the optimal of 10 cluster formed, k means is the best for identification than Hierarchical as the evaluation matrics also indicate the same.
 
 
